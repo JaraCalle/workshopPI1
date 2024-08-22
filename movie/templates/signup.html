@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block title %}Sign Up{% endblock title %}
+{% block content %}
+<h2>Added <span class="fw-semibold">{{ email }}</span> to mailing list</h2>
+<a href="{% url 'home' %}">
+    <button class="btn btn-success">Go back again...</button>
+</a>
+{% endblock content %}
